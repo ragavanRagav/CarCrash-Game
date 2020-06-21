@@ -1,0 +1,83 @@
+#container{
+    position: relative;
+    height: 90vh;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #050505;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    height: 150px;
+    width: 4%;
+    margin-left: 30%;
+    background-color: rgba(255, 255, 255, 0.986);
+}
+#line_1{
+    top: -150px;
+}
+#line_2{
+    top: 150px;
+}
+#line_3{
+    top: 450px;
+}
+.car{
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #2264c7;
+    box-shadow: 0px 1px 8px 0px black;
+}
+#car{
+    bottom: 8%;
+    left: 30%;
+    background-color: #f11818;
+}
+#car_1{
+    top: -100px;
+    left: 40%;
+}
+#car_2{
+    top: -200px;
+    left: 50%;
+}
+#car_3{
+    top: -400px;
+    left: 60%;
+}
+#car_4{
+    top: -300px;
+    left: 55%;
+}
+#car_5{
+    top: -500px;
+    left: 25%;
+}
+#car_6{
+    top: -600px;
+    left: 50%;
+}
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #292929b7;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+#restart {
+    border-radius: 25%;
+    padding: 25px;
+    color: rgba(197, 197, 197, 0.952);
+    background-color: #e40f0f;
+    font-size: 30px;
+    margin-top: 50%;
+    outline: none;
+}
